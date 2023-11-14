@@ -81,7 +81,7 @@ const Nav = () => {
                         <li className="pl-3 pt-2">
                         <NavLink exact to="/">Home</NavLink>
                             </li>
-                        <li className="border-t-2 pl-3 pt-2">About us
+                        <li className="border-t-2 pl-3 pt-2">
                         <NavLink to="/about">About us</NavLink>
                         
                         </li>
@@ -89,8 +89,14 @@ const Nav = () => {
                         <li className="border-t-2 pl-3 mb-2 py-2">Features</li>
                         <li className="border-t-2 pl-3 mb-2 py-2">
                         <NavLink to="/contact">Contact Us</NavLink>
-                            
                         </li>
+                         <li className="border-t-2 pl-3 mb-2 py-2">
+                          <NavLink to="/signup">register</NavLink>
+                         </li>
+                        <li className="border-t-2 pl-3 mb-2 py-2">
+                          <NavLink to="/signin">Login</NavLink>
+                         </li>
+                        
                         {/* <li className="border-t-2 pl-3 mb-2 py-2">Blog</li> */}
                     </ul>
                 </div>
